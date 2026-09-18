@@ -1,0 +1,2007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kaboma Cultural Dancers | Kenyan Cultural Heritage Experience</title>
+
+<meta name="description" content="Kaboma Cultural Dancers presents premium Kenyan cultural heritage experiences through traditional dance, live drumming, storytelling, traditional attire and audience participation.">
+<meta name="keywords" content="cultural dancers in Nairobi, Kenyan cultural dancers, Kenyan traditional dance, cultural entertainment Kenya, Kaboma Cultural Dancers">
+
+<meta property="og:title" content="Kaboma Cultural Dancers">
+<meta property="og:description" content="Experience Kenya. Feel the Culture. Live It.">
+<meta property="og:type" content="website">
+
+<style>
+
+/* =========================================================
+   KABOMA CULTURAL DANCERS
+   PREMIUM PORTFOLIO WEBSITE
+========================================================= */
+
+:root{
+    --black:#0b0b0a;
+    --dark:#12110f;
+    --dark2:#1b1713;
+    --cream:#f5efe5;
+    --cream2:#e7dccb;
+    --gold:#d7a84a;
+    --gold-light:#f2ce76;
+    --red:#8d3429;
+    --brown:#3a2418;
+    --muted:#a99f91;
+    --white:#ffffff;
+    --border:rgba(255,255,255,.11);
+    --shadow:0 30px 80px rgba(0,0,0,.35);
+    --radius:24px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:var(--black);
+    color:var(--cream);
+    line-height:1.7;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img,
+video{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    width:min(1180px,92%);
+    margin:auto;
+}
+
+section{
+    padding:110px 0;
+}
+
+.eyebrow{
+    color:var(--gold-light);
+    font-size:.75rem;
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing:.25em;
+    margin-bottom:15px;
+}
+
+h1,h2,h3{
+    font-family:Georgia,"Times New Roman",serif;
+}
+
+h2{
+    font-size:clamp(2.5rem,5vw,5rem);
+    line-height:1;
+    letter-spacing:-.04em;
+}
+
+.lead{
+    color:#c9c0b3;
+    font-size:1.08rem;
+    max-width:760px;
+}
+
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px 23px;
+    border-radius:999px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-gold{
+    background:var(--gold-light);
+    color:#17120c;
+}
+
+.btn-gold:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 30px rgba(215,168,74,.25);
+}
+
+.btn-outline{
+    border:1px solid rgba(255,255,255,.25);
+    background:rgba(255,255,255,.05);
+}
+
+.btn-outline:hover{
+    background:rgba(255,255,255,.12);
+}
+
+/* ================= NAVIGATION ================= */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(8,8,7,.72);
+    backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.nav{
+    height:76px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-weight:900;
+    letter-spacing:.15em;
+}
+
+.logo-circle{
+    width:42px;
+    height:42px;
+    border:1px solid var(--gold);
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    color:var(--gold-light);
+    font-family:Georgia,serif;
+    font-size:20px;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:28px;
+    font-size:.9rem;
+    color:#d8d0c4;
+}
+
+.nav-links a:hover{
+    color:var(--gold-light);
+}
+
+.nav-book{
+    border:1px solid rgba(242,206,118,.55);
+    padding:10px 17px;
+    border-radius:999px;
+    color:var(--gold-light);
+}
+
+.menu{
+    display:none;
+    border:0;
+    background:none;
+    color:white;
+    font-size:27px;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    min-height:100vh;
+    min-height:100svh;
+    position:relative;
+    display:flex;
+    align-items:flex-end;
+    overflow:hidden;
+    isolation:isolate;
+}
+
+.hero-video{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-3;
+    filter:brightness(.55) saturate(.85);
+}
+
+.hero-background{
+    position:absolute;
+    inset:0;
+    z-index:-4;
+    background:
+        radial-gradient(circle at 70% 25%,rgba(215,168,74,.25),transparent 30%),
+        linear-gradient(135deg,#2b1b12,#100e0c 70%);
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    z-index:-2;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,.25),
+            rgba(0,0,0,.18) 35%,
+            rgba(0,0,0,.93)
+        );
+}
+
+.hero-content{
+    padding:150px 0 75px;
+}
+
+.hero-tag{
+    display:inline-block;
+    border:1px solid rgba(242,206,118,.35);
+    background:rgba(0,0,0,.25);
+    padding:8px 15px;
+    border-radius:999px;
+    color:#eedcaf;
+    font-size:.75rem;
+    text-transform:uppercase;
+    letter-spacing:.16em;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:clamp(4rem,9vw,9rem);
+    line-height:.86;
+    letter-spacing:-.065em;
+    max-width:1050px;
+}
+
+.hero h1 span{
+    color:var(--gold-light);
+}
+
+.hero-description{
+    margin-top:28px;
+    max-width:700px;
+    color:#ddd3c4;
+    font-size:1.15rem;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:30px;
+}
+
+.hero-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom:25px;
+    color:#aaa093;
+    font-size:.8rem;
+}
+
+.hero-bottom-line{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.hero-bottom-line:before{
+    content:"";
+    width:40px;
+    height:1px;
+    background:var(--gold);
+}
+
+/* ================= INTRO STRIP ================= */
+
+.intro-strip{
+    background:var(--cream);
+    color:var(--black);
+}
+
+.intro-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.intro-item{
+    padding:35px 25px;
+    border-right:1px solid #d5c7b5;
+}
+
+.intro-item:last-child{
+    border-right:0;
+}
+
+.intro-number{
+    font:700 3rem Georgia,serif;
+    color:var(--red);
+}
+
+.intro-label{
+    color:#655d52;
+    font-size:.85rem;
+}
+
+/* ================= ABOUT ================= */
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:65px;
+    align-items:center;
+}
+
+.about-image{
+    min-height:600px;
+    border-radius:var(--radius);
+    overflow:hidden;
+    background:
+        linear-gradient(145deg,rgba(215,168,74,.2),transparent),
+        #291d15;
+    box-shadow:var(--shadow);
+    position:relative;
+}
+
+.about-image img{
+    width:100%;
+    height:100%;
+    min-height:600px;
+    object-fit:cover;
+}
+
+.about-label{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    right:20px;
+    background:rgba(10,9,8,.72);
+    backdrop-filter:blur(15px);
+    padding:18px;
+    border-radius:18px;
+    border:1px solid var(--border);
+}
+
+.about-label strong{
+    display:block;
+    font:700 1.25rem Georgia,serif;
+}
+
+.about-copy p{
+    color:#c9c0b4;
+    margin:20px 0;
+}
+
+/* ================= HERITAGE ================= */
+
+.heritage{
+    background:var(--cream);
+    color:var(--black);
+}
+
+.heritage .lead{
+    color:#665d51;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+    margin-top:45px;
+}
+
+.feature{
+    background:#fffaf3;
+    border:1px solid #ded0bd;
+    border-radius:var(--radius);
+    padding:32px;
+    min-height:320px;
+    position:relative;
+    overflow:hidden;
+}
+
+.feature-number{
+    color:var(--red);
+    font-size:.75rem;
+    font-weight:900;
+    letter-spacing:.15em;
+}
+
+.feature h3{
+    font-size:1.65rem;
+    line-height:1.15;
+    margin:20px 0 14px;
+}
+
+.feature p{
+    color:#655d52;
+}
+
+.feature:after{
+    content:"";
+    position:absolute;
+    width:140px;
+    height:140px;
+    right:-65px;
+    bottom:-65px;
+    border-radius:50%;
+    background:rgba(215,168,74,.14);
+}
+
+/* ================= EXPERIENCE ================= */
+
+.experience-box{
+    background:
+        radial-gradient(circle at 85% 20%,rgba(215,168,74,.14),transparent 25%),
+        linear-gradient(135deg,#211912,#0e0d0b);
+    border:1px solid var(--border);
+    border-radius:32px;
+    padding:60px;
+    box-shadow:var(--shadow);
+}
+
+.experience-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:55px;
+}
+
+.checks{
+    list-style:none;
+    margin-top:25px;
+}
+
+.checks li{
+    margin:14px 0;
+    color:#d2c8ba;
+}
+
+.checks li:before{
+    content:"✓";
+    color:var(--gold-light);
+    margin-right:12px;
+    font-weight:bold;
+}
+
+.experience-quote{
+    display:flex;
+    align-items:center;
+    font:italic 1.45rem/1.5 Georgia,serif;
+    color:#e6dac8;
+    border-left:2px solid var(--gold);
+    padding-left:25px;
+}
+
+/* ================= SERVICES ================= */
+
+.services{
+    background:#14120f;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin-top:45px;
+}
+
+.service{
+    border:1px solid var(--border);
+    background:rgba(255,255,255,.035);
+    padding:28px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.service:hover{
+    transform:translateY(-5px);
+    border-color:rgba(242,206,118,.4);
+}
+
+.service-icon{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.service h3{
+    font-family:Arial,sans-serif;
+    font-size:1.05rem;
+    margin-bottom:7px;
+}
+
+.service p{
+    color:#aaa093;
+    font-size:.9rem;
+}
+
+/* ================= JOURNEY ================= */
+
+.journey{
+    background:var(--cream);
+    color:var(--black);
+}
+
+.community-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+    margin-top:45px;
+}
+
+.community{
+    min-height:165px;
+    padding:25px;
+    border:1px solid #ded0bd;
+    background:#fffaf3;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+
+.community strong{
+    font:700 1.3rem Georgia,serif;
+}
+
+.community span{
+    color:#776d60;
+    font-size:.8rem;
+}
+
+/* ================= GALLERY ================= */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    gap:12px;
+    margin-top:45px;
+}
+
+.gallery-item{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    background:#241b15;
+    min-height:270px;
+}
+
+.gallery-item:nth-child(1){
+    grid-column:span 7;
+    min-height:430px;
+}
+
+.gallery-item:nth-child(2){
+    grid-column:span 5;
+}
+
+.gallery-item:nth-child(3){
+    grid-column:span 5;
+}
+
+.gallery-item:nth-child(4){
+    grid-column:span 7;
+}
+
+.gallery-item img,
+.gallery-item video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.gallery-caption{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px;
+    background:linear-gradient(transparent,rgba(0,0,0,.85));
+    font-weight:bold;
+}
+
+/* ================= EVENTS ================= */
+
+.events{
+    background:#15120f;
+}
+
+.events-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+    margin-top:45px;
+}
+
+.event{
+    border:1px solid var(--border);
+    background:#1b1713;
+    border-radius:24px;
+    padding:32px;
+}
+
+.event-date{
+    color:var(--gold-light);
+    font-size:.75rem;
+    font-weight:bold;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+}
+
+.event h3{
+    font-size:1.7rem;
+    margin:12px 0;
+}
+
+.event p{
+    color:#aaa093;
+}
+
+/* ================= CTA ================= */
+
+.cta{
+    background:
+        radial-gradient(circle at 80% 40%,rgba(215,168,74,.2),transparent 28%),
+        linear-gradient(135deg,#4b211a,#17110e);
+    text-align:center;
+}
+
+.cta-content{
+    max-width:850px;
+    margin:auto;
+}
+
+.cta h2{
+    font-size:clamp(3rem,6vw,5.7rem);
+}
+
+.cta p{
+    color:#d3c7b8;
+    max-width:650px;
+    margin:20px auto 0;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+/* ================= CONTACT ================= */
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.contact-card{
+    border:1px solid var(--border);
+    background:#171411;
+    padding:35px;
+    border-radius:24px;
+}
+
+.contact-row{
+    padding:16px 0;
+    border-bottom:1px solid var(--border);
+    display:flex;
+    gap:20px;
+}
+
+.contact-row:last-child{
+    border-bottom:0;
+}
+
+.contact-label{
+    width:95px;
+    flex-shrink:0;
+    color:#958b7e;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size:.72rem;
+}
+
+.contact-value{
+    color:#ddd3c4;
+}
+
+.contact-value:hover{
+    color:var(--gold-light);
+}
+
+.qr{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    min-height:350px;
+    border-radius:24px;
+    background:#211b16;
+    border:1px solid var(--border);
+}
+
+.qr img{
+    width:190px;
+    height:190px;
+    object-fit:contain;
+    background:white;
+    padding:8px;
+    border-radius:10px;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    border-top:1px solid var(--border);
+    padding:30px 0;
+    color:#81786e;
+    font-size:.8rem;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.motto{
+    color:#c6b78f;
+    font-family:Georgia,serif;
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:900px){
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        top:76px;
+        left:0;
+        right:0;
+        background:#0d0c0b;
+        padding:25px;
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .nav-links.open{
+        display:flex;
+    }
+
+    .menu{
+        display:block;
+    }
+
+    .nav-book{
+        display:none;
+    }
+
+    .about-grid,
+    .experience-grid,
+    .contact-grid,
+    .events-grid{
+        grid-template-columns:1fr;
+    }
+
+    .feature-grid,
+    .services-grid{
+        grid-template-columns:1fr;
+    }
+
+    .community-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .intro-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .intro-item:nth-child(2){
+        border-right:0;
+    }
+
+    .experience-box{
+        padding:35px;
+    }
+}
+
+@media(max-width:600px){
+
+    section{
+        padding:75px 0;
+    }
+
+    .hero-content{
+        padding-top:130px;
+    }
+
+    .hero h1{
+        font-size:clamp(3.5rem,17vw,5.5rem);
+    }
+
+    .hero-description{
+        font-size:1rem;
+    }
+
+    .hero-bottom{
+        display:none;
+    }
+
+    .intro-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .intro-item{
+        padding:25px 15px;
+    }
+
+    .intro-number{
+        font-size:2.2rem;
+    }
+
+    .community-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+    .gallery-item,
+    .gallery-item:nth-child(n){
+        grid-column:span 1;
+        min-height:300px;
+    }
+
+    .footer{
+        flex-direction:column;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ======================================================
+     NAVIGATION
+======================================================= -->
+
+<header>
+
+<div class="container nav">
+
+<a href="#home" class="logo">
+    <div class="logo-circle">K</div>
+    KABOMA
+</a>
+
+<button class="menu" id="menuBtn">☰</button>
+
+<nav class="nav-links" id="navLinks">
+
+<a href="#about">About</a>
+<a href="#heritage">Heritage</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#events">Events</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<a href="https://wa.link/s0su3u"
+   target="_blank"
+   class="nav-book">
+
+Book Kaboma
+
+</a>
+
+</div>
+
+</header>
+
+
+<!-- ======================================================
+     HERO
+======================================================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-background"></div>
+
+<!--
+     ADD YOUR VIDEO HERE:
+     Create an "assets" folder.
+     Put your video inside it as:
+
+     assets/hero.mp4
+
+     If you don't add a video, the background design
+     will remain visible.
+-->
+
+<video
+    class="hero-video"
+    autoplay
+    muted
+    loop
+    playsinline>
+
+    <source src="assets/hero.mp4" type="video/mp4">
+
+</video>
+
+<div class="hero-overlay"></div>
+
+<div class="container hero-content">
+
+<div class="hero-tag">
+Premium Kenyan Cultural Heritage Experience
+</div>
+
+<h1>
+Experience Kenya.<br>
+<span>Feel the Culture.</span><br>
+Live It.
+</h1>
+
+<p class="hero-description">
+
+Kaboma Cultural Dancers brings Kenya's diverse traditions to life
+through live dance, drumming, storytelling, traditional attire
+and meaningful audience participation.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="https://wa.link/s0su3u"
+   target="_blank"
+   class="btn btn-gold">
+
+Book Kaboma →
+
+</a>
+
+<a href="#heritage"
+   class="btn btn-outline">
+
+Explore Our Experience
+
+</a>
+
+</div>
+
+</div>
+
+<div class="container hero-bottom">
+
+<div class="hero-bottom-line">
+Scroll to explore
+</div>
+
+<div>
+<em>Preserving Our Ancestors Cultural Footsteps Through Dance</em>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     STATS
+======================================================= -->
+
+<section class="intro-strip">
+
+<div class="container intro-grid">
+
+<div class="intro-item">
+
+<div class="intro-number">40+</div>
+
+<div class="intro-label">
+Kenyan communities and cultural traditions represented
+</div>
+
+</div>
+
+<div class="intro-item">
+
+<div class="intro-number">20+</div>
+
+<div class="intro-label">
+Years of cultural performance experience
+</div>
+
+</div>
+
+<div class="intro-item">
+
+<div class="intro-number">16</div>
+
+<div class="intro-label">
+Performers in the current full experience setup
+</div>
+
+</div>
+
+<div class="intro-item">
+
+<div class="intro-number">1</div>
+
+<div class="intro-label">
+Immersive journey across Kenya in one show
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     ABOUT
+======================================================= -->
+
+<section id="about">
+
+<div class="container about-grid">
+
+<div class="about-image">
+
+<!-- Replace with your own image -->
+
+<img
+src="assets/kaboma-experience.png"
+alt="Kaboma Cultural Dancers">
+
+<div class="about-label">
+
+<strong>
+Culture is not only watched. It is experienced.
+</strong>
+
+<span>
+Dance • Music • Storytelling • Participation
+</span>
+
+</div>
+
+</div>
+
+
+<div class="about-copy">
+
+<div class="eyebrow">
+About Kaboma
+</div>
+
+<h2>
+A living journey through Kenya.
+</h2>
+
+<p>
+
+Kaboma Cultural Dancers is a Kenyan cultural and heritage dance
+group dedicated to preserving and sharing Kenya's traditions
+through live dance, music, storytelling, traditional attire
+and audience participation.
+
+</p>
+
+<p>
+
+Our performances bring together cultural expressions from
+different Kenyan communities and present them as one
+professionally coordinated experience.
+
+</p>
+
+<p>
+
+From corporate events and conferences to hotels, weddings,
+tourism experiences, festivals, expos and VIP welcomes,
+Kaboma creates cultural moments that guests can see,
+hear, understand and participate in.
+
+</p>
+
+<a href="#contact" class="btn btn-gold">
+
+Inquire About a Performance
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     HERITAGE DIFFERENCE
+======================================================= -->
+
+<section class="heritage" id="heritage">
+
+<div class="container">
+
+<div class="eyebrow">
+Heritage in Motion
+</div>
+
+<h2>
+What truly makes Kaboma different is this:
+</h2>
+
+<p class="lead">
+
+A Kaboma performance is designed as an experience —
+not simply a sequence of dances.
+
+</p>
+
+
+<div class="feature-grid">
+
+
+<article class="feature">
+
+<div class="feature-number">
+01 — THE WHOLE OF KENYA
+</div>
+
+<h3>
+The Whole of Kenya in One Show
+</h3>
+
+<p>
+
+Kenya has more than 40 tribes and communities, each with
+unique languages, traditions, attire, instruments, rhythms
+and dances.
+
+Kaboma brings these cultural expressions together in one
+performance, taking audiences on a journey across Kenya.
+
+</p>
+
+</article>
+
+
+<article class="feature">
+
+<div class="feature-number">
+02 — THE STORY
+</div>
+
+<h3>
+We Tell the Story Behind Every Dance
+</h3>
+
+<p>
+
+Our live cultural narrator helps audiences understand what
+they are seeing — including the community being represented,
+the meaning of movements, songs, instruments and traditions
+behind each cultural presentation.
+
+</p>
+
+</article>
+
+
+<article class="feature">
+
+<div class="feature-number">
+03 — PARTICIPATION
+</div>
+
+<h3>
+Interactive Cultural Experience
+</h3>
+
+<p>
+
+Guests are invited to participate and dance with the performers.
+
+This turns the presentation into a shared cultural moment
+where people can experience Kenya through movement, rhythm
+and interaction.
+
+</p>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     FULL EXPERIENCE
+======================================================= -->
+
+<section>
+
+<div class="container">
+
+<div class="experience-box">
+
+<div class="experience-grid">
+
+<div>
+
+<div class="eyebrow">
+The Full Kaboma Experience
+</div>
+
+<h2>
+More than a performance.
+</h2>
+
+<p class="lead">
+
+The full experience can bring together dancers,
+live percussionists and a cultural narrator to create
+a complete Kenyan heritage presentation.
+
+</p>
+
+
+<ul class="checks">
+
+<li>Traditional Kenyan dance and movement</li>
+
+<li>Live drumming and percussion</li>
+
+<li>Cultural storytelling and narration</li>
+
+<li>Traditional attire and visual presentation</li>
+
+<li>Audience participation and interaction</li>
+
+<li>Adaptable formats for different event programs</li>
+
+</ul>
+
+</div>
+
+
+<div class="experience-quote">
+
+“Experience culture not simply as something to observe,
+but as something to feel, understand and participate in.”
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     SERVICES
+======================================================= -->
+
+<section class="services" id="services">
+
+<div class="container">
+
+<div class="eyebrow">
+What We Do
+</div>
+
+<h2>
+Cultural entertainment for meaningful occasions.
+</h2>
+
+<p class="lead">
+
+Kaboma can adapt the performance to your audience,
+venue, schedule and event objectives.
+
+</p>
+
+
+<div class="services-grid">
+
+
+<div class="service">
+
+<div class="service-icon">✈🏾</div>
+
+<h3>Airport Welcomes</h3>
+
+<p>
+Cultural welcomes for visiting guests, VIPs,
+delegates and special groups.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">🏨</div>
+
+<h3>Hotels & Lodges</h3>
+
+<p>
+Live cultural entertainment for guests,
+special evenings and hospitality programs.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">🎤</div>
+
+<h3>Conferences & Corporate Events</h3>
+
+<p>
+Opening performances, cultural interludes,
+networking receptions and closing celebrations.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">💍</div>
+
+<h3>Weddings & Celebrations</h3>
+
+<p>
+Entrance performances, cultural showcases
+and interactive entertainment.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">🌍</div>
+
+<h3>Tourism & Safari Experiences</h3>
+
+<p>
+Authentic Kenyan cultural experiences for
+travelers, tour operators and safari programs.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">🎪</div>
+
+<h3>Festivals & Expos</h3>
+
+<p>
+Cultural showcases for festivals, exhibitions,
+fairs, launches and international events.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">🏫</div>
+
+<h3>Schools & Educational Programs</h3>
+
+<p>
+Interactive cultural learning through dance,
+music, storytelling and participation.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">🤝🏾</div>
+
+<h3>VIP & Delegate Welcomes</h3>
+
+<p>
+Professional cultural presentations for
+visiting delegations and special guests.
+</p>
+
+</div>
+
+
+<div class="service">
+
+<div class="service-icon">🎬</div>
+
+<h3>Special Productions</h3>
+
+<p>
+Curated cultural presentations tailored to
+themes, creative direction and event requirements.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     CULTURAL JOURNEY
+======================================================= -->
+
+<section class="journey">
+
+<div class="container">
+
+<div class="eyebrow">
+A Journey Across Kenya
+</div>
+
+<h2>
+Many communities. One cultural experience.
+</h2>
+
+<p class="lead">
+
+Our repertoire can feature cultural expressions
+from communities across Kenya.
+
+</p>
+
+
+<div class="community-grid">
+
+
+<div class="community">
+
+<strong>Maasai</strong>
+
+<span>
+Dance • Rhythm • Heritage
+</span>
+
+</div>
+
+
+<div class="community">
+
+<strong>Luo</strong>
+
+<span>
+Music • Movement • Tradition
+</span>
+
+</div>
+
+
+<div class="community">
+
+<strong>Kikuyu</strong>
+
+<span>
+Dance • Song • Heritage
+</span>
+
+</div>
+
+
+<div class="community">
+
+<strong>Kamba</strong>
+
+<span>
+Rhythm • Dance • Culture
+</span>
+
+</div>
+
+
+<div class="community">
+
+<strong>Luhya</strong>
+
+<span>
+Isukuti • Dance • Rhythm
+</span>
+
+</div>
+
+
+<div class="community">
+
+<strong>Kisii</strong>
+
+<span>
+Dance • Song • Tradition
+</span>
+
+</div>
+
+
+<div class="community">
+
+<strong>Mijikenda</strong>
+
+<span>
+Coastal Heritage • Dance
+</span>
+
+</div>
+
+
+<div class="community">
+
+<strong>Kalenjin</strong>
+
+<span>
+Dance • Song • Tradition
+</span>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     GALLERY
+======================================================= -->
+
+<section id="gallery">
+
+<div class="container">
+
+<div class="eyebrow">
+Gallery & Media
+</div>
+
+<h2>
+See the culture come alive.
+</h2>
+
+<p class="lead">
+
+Replace the files below with your own high-quality
+Kaboma photos and performance videos.
+
+</p>
+
+
+<div class="gallery-grid">
+
+
+<!-- PHOTO 1 -->
+
+<div class="gallery-item">
+
+<img
+src="assets/photo1.jpg"
+alt="Kaboma cultural dance performance">
+
+<div class="gallery-caption">
+Live Kenyan Cultural Performance
+</div>
+
+</div>
+
+
+<!-- PHOTO 2 -->
+
+<div class="gallery-item">
+
+<img
+src="assets/photo2.jpg"
+alt="Kaboma traditional dancers">
+
+<div class="gallery-caption">
+Traditional Dance & Attire
+</div>
+
+</div>
+
+
+<!-- VIDEO -->
+
+<div class="gallery-item">
+
+<video controls>
+
+<source
+src="assets/performance.mp4"
+type="video/mp4">
+
+Your browser does not support video.
+
+</video>
+
+<div class="gallery-caption">
+Performance Video
+</div>
+
+</div>
+
+
+<!-- PHOTO 3 -->
+
+<div class="gallery-item">
+
+<img
+src="assets/photo3.jpg"
+alt="Kaboma audience participation">
+
+<div class="gallery-caption">
+Interactive Cultural Experience
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     EVENTS
+======================================================= -->
+
+<section class="events" id="events">
+
+<div class="container">
+
+<div class="eyebrow">
+Selected Engagements
+</div>
+
+<h2>
+Taking Kenyan culture beyond the stage.
+</h2>
+
+
+<div class="events-grid">
+
+
+<div class="event">
+
+<div class="event-date">
+2026 • Abuja, Nigeria
+</div>
+
+<h3>
+Afrocentric Cultural Expo 2026
+</h3>
+
+<p>
+
+Kaboma was selected as an Official Kenyan Cultural
+Dance Group for the 2026 Afrocentric Cultural Expo
+in Abuja, Nigeria.
+
+</p>
+
+</div>
+
+
+<div class="event">
+
+<div class="event-date">
+2027 • Kenya
+</div>
+
+<h3>
+Kilele 2027 — Common Grounds
+</h3>
+
+<p>
+
+A cultural performance concept exploring how
+communities, traditions and generations can meet
+through movement, music, storytelling and
+cultural expression.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     CTA
+======================================================= -->
+
+<section class="cta">
+
+<div class="container cta-content">
+
+<div class="eyebrow">
+Bring Kenya To Your Audience
+</div>
+
+<h2>
+Let's create an unforgettable cultural experience.
+</h2>
+
+<p>
+
+Book Kaboma for your event, hotel, safari program,
+conference, festival, wedding, expo or special occasion.
+
+</p>
+
+
+<div class="cta-buttons">
+
+<a
+href="https://wa.link/s0su3u"
+target="_blank"
+class="btn btn-gold">
+
+WhatsApp Kaboma
+
+</a>
+
+
+<a
+href="mailto:kabomadancers@gmail.com"
+class="btn btn-outline">
+
+Email Kaboma
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     CONTACT
+======================================================= -->
+
+<section id="contact">
+
+<div class="container contact-grid">
+
+
+<div class="contact-card">
+
+<div class="eyebrow">
+Bookings & Inquiries
+</div>
+
+<h2 style="font-size:3.2rem">
+Let's talk.
+</h2>
+
+
+<div class="contact-row">
+
+<div class="contact-label">
+WhatsApp
+</div>
+
+<a
+href="https://wa.link/s0su3u"
+target="_blank"
+class="contact-value">
+
++254 796 222543
+
+</a>
+
+</div>
+
+
+<div class="contact-row">
+
+<div class="contact-label">
+Email
+</div>
+
+<a
+href="mailto:kabomadancers@gmail.com"
+class="contact-value">
+
+kabomadancers@gmail.com
+
+</a>
+
+</div>
+
+
+<div class="contact-row">
+
+<div class="contact-label">
+Website
+</div>
+
+<a
+href="https://kabomaculturaldance.co.ke"
+target="_blank"
+class="contact-value">
+
+kabomaculturaldance.co.ke
+
+</a>
+
+</div>
+
+
+<div class="contact-row">
+
+<div class="contact-label">
+Social
+</div>
+
+<div class="contact-value">
+
+@kabomaculturaldancers
+
+</div>
+
+</div>
+
+
+<div class="contact-row">
+
+<div class="contact-label">
+Base
+</div>
+
+<div class="contact-value">
+
+Maasai Market Collection, Karen,
+Nairobi, Kenya
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="qr">
+
+<div>
+
+<img
+src="assets/kaboma-qr.png"
+alt="Scan to connect with Kaboma">
+
+<p style="margin-top:15px;color:#bfb4a5">
+Scan to connect with Kaboma
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- ======================================================
+     FOOTER
+======================================================= -->
+
+<footer>
+
+<div class="container footer">
+
+<div>
+
+© <span id="year"></span>
+Kaboma Cultural Dancers.
+All rights reserved.
+
+</div>
+
+<div class="motto">
+
+<em>
+Preserving Our Ancestors Cultural Footsteps Through Dance
+</em>
+
+</div>
+
+</div>
+
+</footer>
+
+
+<script>
+
+/* MOBILE MENU */
+
+const menuBtn =
+document.getElementById("menuBtn");
+
+const navLinks =
+document.getElementById("navLinks");
+
+menuBtn.addEventListener("click",function(){
+
+navLinks.classList.toggle("open");
+
+});
+
+
+/* CLOSE MOBILE MENU AFTER CLICK */
+
+document.querySelectorAll(".nav-links a")
+.forEach(function(link){
+
+link.addEventListener("click",function(){
+
+navLinks.classList.remove("open");
+
+});
+
+});
+
+
+/* CURRENT YEAR */
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+</script>
+
+</body>
+</html>
