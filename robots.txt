@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kabomaculturaldancers.github.io/kaboma-portfolio/sitemap.xml
